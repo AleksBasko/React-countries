@@ -1,0 +1,22 @@
+.popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+
+.popup__window {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    min-height: 250px;
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
